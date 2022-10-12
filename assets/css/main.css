@@ -3509,15 +3509,9 @@ input, select, textarea {
 			.dropotron.level-0.right:before {
 				right: 1em;
 			}
-	
-			body.landing #header {
-				background: transparent;
-				box-shadow: none;
-				position: absolute;
-			}
 
 /* end of added */
-	/* #page-wrapper {
+	#page-wrapper {
 		padding-top: 3.5em;
 	}
 
@@ -3587,13 +3581,13 @@ input, select, textarea {
 
 	body.landing #page-wrapper {
 		padding-top: 0;
-	}
+	} */
 
 	body.landing #header {
 		background: transparent;
 		box-shadow: none;
 		position: absolute;
-	} */
+	}
 
 /* Banner */
 
