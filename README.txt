@@ -4,6 +4,7 @@
 
 - Fix drop down on header (check css?)
 - Fix header on smaller screens (check css?)
+	- Use Prologue floating slide nav bar for smaller screens with center home button?
 - Add space between navigation bar and page header
 - Connect email to contact form
 - Add home page image
