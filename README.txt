@@ -1,3 +1,19 @@
+# Priya's Personal Website
+
+## To Do List
+
+- Fix drop down on header (check css?)
+- Fix header on smaller screens (check css?)
+- Add home page image
+- Add content
+
+## Template Information
+
+- Base Template: Landed
+- Header: Telephasic
+- Button Idea: Dimension
+- Other Reference: Spectral
+
 Landed by HTML5 UP
 html5up.net | @ajlkn
 Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
