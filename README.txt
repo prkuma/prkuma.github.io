@@ -5,6 +5,7 @@
 - Fix drop down on header (check css?)
 - Fix header on smaller screens (check css?)
 - Add space between navigation bar and page header
+- Connect email to contact form
 - Add home page image
 - Add content
 
