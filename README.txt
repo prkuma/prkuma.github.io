@@ -4,6 +4,7 @@
 
 - Fix drop down on header (check css?)
 - Fix header on smaller screens (check css?)
+- Add space between navigation bar and page header
 - Add home page image
 - Add content
 
