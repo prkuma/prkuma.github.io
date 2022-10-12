@@ -2219,7 +2219,7 @@ input, select, textarea {
 	}
 
 	input[type="text"],
-	input[type="password"],
+	input[type="subject"],
 	input[type="email"],
 	select,
 	textarea {
@@ -2243,7 +2243,7 @@ input, select, textarea {
 	}
 
 		input[type="text"]:invalid,
-		input[type="password"]:invalid,
+		input[type="subject"]:invalid,
 		input[type="email"]:invalid,
 		select:invalid,
 		textarea:invalid {
@@ -2251,7 +2251,7 @@ input, select, textarea {
 		}
 
 		input[type="text"]:focus,
-		input[type="password"]:focus,
+		input[type="subject"]:focus,
 		input[type="email"]:focus,
 		select:focus,
 		textarea:focus {
@@ -2282,7 +2282,7 @@ input, select, textarea {
 		}
 
 	input[type="text"],
-	input[type="password"],
+	input[type="subject"],
 	input[type="email"],
 	select {
 		height: 3em;
@@ -3205,7 +3205,7 @@ input, select, textarea {
 		}
 
 			.wrapper.style2 input[type="text"]:focus,
-			.wrapper.style2 input[type="password"]:focus,
+			.wrapper.style2 input[type="subject"]:focus,
 			.wrapper.style2 input[type="email"]:focus,
 			.wrapper.style2 select:focus,
 			.wrapper.style2 textarea:focus {
