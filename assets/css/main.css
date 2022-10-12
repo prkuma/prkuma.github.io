@@ -3573,7 +3573,7 @@ input, select, textarea {
 					top: 0;
 				}
 
-			#banner .content .image {
+			/* #banner .content .image {
 				border-radius: 100%;
 				display: inline-block;
 				height: 18em;
@@ -3586,7 +3586,7 @@ input, select, textarea {
 					border-radius: 100%;
 					display: block;
 					width: 100%;
-				}
+				} */
 
 	body.is-touch #banner {
 		background-attachment: scroll;
