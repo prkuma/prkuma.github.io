@@ -3312,7 +3312,7 @@ input, select, textarea {
 
 /* Dropotron */
 
-	.dropotron {
+	/* .dropotron {
 		background: rgba(39, 40, 51, 0.965);
 		border-radius: 4px;
 		box-shadow: 0 0.075em 0.35em 0 rgba(0, 0, 0, 0.125);
@@ -3365,7 +3365,7 @@ input, select, textarea {
 
 	body.landing .dropotron.level-0 {
 		margin-top: 0;
-	}
+	} */
 
 /* Header */
 
@@ -3449,6 +3449,8 @@ input, select, textarea {
 					margin-left: 20em;
 				}
 
+
+/* Dropotron */
 	.dropotron {
 		text-align: left;
 		line-height: 2em;
@@ -3554,7 +3556,7 @@ input, select, textarea {
 			padding: 6em;
 			position: relative;
 			text-align: center;
-			vertical-align: middle;
+			vertical-align: bottom;
 			z-index: 1;
 		}
 
