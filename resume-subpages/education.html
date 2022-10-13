@@ -9,8 +9,8 @@
 		<title>Priya Kumar - Resume</title>
 		<meta charset="utf-8" />
 		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
-		<link rel="stylesheet" href="assets/css/main.css" />
-		<noscript><link rel="stylesheet" href="assets/css/noscript.css" /></noscript>
+		<link rel="stylesheet" href="/assets/css/main.css" />
+		<noscript><link rel="stylesheet" href="/assets/css/noscript.css" /></noscript>
 	</head>
 	<body class="is-preload">
 		<div id="page-wrapper">
@@ -20,34 +20,34 @@
 			<div id="header" class="container">
 
 				<!-- Logo -->
-					<h1 id="logo"><a href="index.html">Home</a></h1>
+					<h1 id="logo"><a href="/index.html">Home</a></h1>
 
 				<!-- Nav -->
-					<nav id="nav">
-						<ul>
-							<li>
-								<a href="/resume.html">Resume</a>
-								<ul>
-									<li><a href="/resume-subpages/education.html">Education</a></li>
-									<li>
-										<a href="/resume-subpages/experience.html">Experience</a>
-										<ul>
-											<li><a href="#">Work & Internships</a></li>
-											<li><a href="#">Clubs & Organizations</a></li>
-											<li><a href="#">Volunteer</a></li>
-											<li><a href="#">Research</a></li>
-											<li><a href="#">Other</a></li>
-										</ul>
-									</li>
-									<li><a href="/resume-subpages/projects.html">Projects</a></li>
-									<li><a href="/resume-subpages/awards.html">Awards & Recognition</a></li>
-								</ul>
-							</li>
-							<li><a href="/links.html">Links</a></li>
-							<li class="break"><a href="/blog.html">Blog</a></li>
-							<li><a href="/contact.html">Contact</a></li>
-						</ul>
-					</nav>
+				<nav id="nav">
+					<ul>
+						<li>
+							<a href="/resume.html">Resume</a>
+							<ul>
+								<li><a href="/resume-subpages/education.html">Education</a></li>
+								<li>
+									<a href="/resume-subpages/experience.html">Experience</a>
+									<ul>
+										<li><a href="#">Work & Internships</a></li>
+										<li><a href="#">Clubs & Organizations</a></li>
+										<li><a href="#">Volunteer</a></li>
+										<li><a href="#">Research</a></li>
+										<li><a href="#">Other</a></li>
+									</ul>
+								</li>
+								<li><a href="/resume-subpages/projects.html">Projects</a></li>
+								<li><a href="/resume-subpages/awards.html">Awards & Recognition</a></li>
+							</ul>
+						</li>
+						<li><a href="/links.html">Links</a></li>
+						<li class="break"><a href="/blog.html">Blog</a></li>
+						<li><a href="/contact.html">Contact</a></li>
+					</ul>
+				</nav>
 
 			</div>
 		</div>
@@ -76,6 +76,113 @@
 									<li>Lacinia mattis arcu nascetur lobortis.</li>
 								</ul>
 							</section>
+
+							<!-- Collapsible -->
+								<style>
+									.collapsible {
+										background-color: #272833;
+										color: white;
+										cursor: pointer;
+										padding: 18px;
+										width: 100%;
+										border: none;
+										text-align: left;
+										outline: none;
+										font-size: 15px;
+									}
+									
+									.active, .collapsible:hover {
+										background-color: #555;
+									}
+									
+									.content {
+										padding: 0 18px;
+										max-height: 0;
+										overflow: hidden;
+										transition: max-height 0.2s ease-out;
+										background-color: #f1f1f1;
+									}
+								</style>
+
+								<!-- Collapsible Set -->
+								<meta name="viewport" content="width=device-width, initial-scale=1">
+								<style>
+									.collapsible {
+										background-color: #272833;
+										color: white;
+										cursor: pointer;
+										padding: 18px;
+										width: 100%;
+										border: none;
+										text-align: left;
+										outline: none;
+										font-size: 15px;
+									}
+									
+									.active, .collapsible:hover {
+										background-color: #e44c65;
+									}
+									
+									.collapsible:after {
+										content: '\002B';
+										color: white;
+										font-weight: bold;
+										float: right;
+										margin-left: 5px;
+									}
+									
+									.active:after {
+										content: "\2212";
+									}
+									
+									.content {
+										padding: 0 18px;
+										max-height: 0;
+										overflow: hidden;
+										transition: max-height 0.2s ease-out;
+										background-color: #f1f1f1;
+										color: #1c1d26;
+									}
+								</style>
+								
+								<h2>Animated Collapsibles</h2>
+								
+								<p>A Collapsible:</p>
+								<button class="collapsible">Open Collapsible</button>
+								<div class="content">
+								  <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+								</div>
+								
+								<p>Collapsible Set:</p>
+								<button class="collapsible">Open Section 1</button>
+								<div class="content">
+								  <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+								</div>
+								<button class="collapsible">Open Section 2</button>
+								<div class="content">
+								  <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+								</div>
+								<button class="collapsible">Open Section 3</button>
+								<div class="content">
+								  <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+								</div>
+								
+								<script>
+								var coll = document.getElementsByClassName("collapsible");
+								var i;
+								
+								for (i = 0; i < coll.length; i++) {
+								  coll[i].addEventListener("click", function() {
+									this.classList.toggle("active");
+									var content = this.nextElementSibling;
+									if (content.style.maxHeight){
+									  content.style.maxHeight = null;
+									} else {
+									  content.style.maxHeight = content.scrollHeight + "px";
+									} 
+								  });
+								}
+								</script>
 					</div>
 				</div>
 

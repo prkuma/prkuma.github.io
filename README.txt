@@ -4,6 +4,9 @@
 
 - Fix header on smaller screens (check css?)
 	- Use Prologue floating slide nav bar for smaller screens with center home button?
+- how to add to css file for collapsibles witout weird changes to home page
+- how to put html files in a folder and still have css apply to them
+	- move resume drop down pages to resume-subpages folder
 - Add space between navigation bar and page header
 - Connect email to contact form
 - Add content
