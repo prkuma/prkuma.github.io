@@ -7,10 +7,10 @@
 (function($) {
 
 	var	$window = $(window),
-		// $body = $('body'),
+		$body = $('body'),
 		$wrapper = $('#popupwrapper'),
 		$header = $('#popupheader'),
-		// $footer = $('#footer'),
+		$footer = $('#footer'),
 		$main = $('#popup'),
 		$main_articles = $main.children('article');
 
